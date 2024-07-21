@@ -12,10 +12,11 @@ const HomePage = () => {
       <main className="flex-grow p-4 bg-red-600">
         <Card className="mb-4">
           <CardHeader>
-            <CardTitle>Welcome</CardTitle>
+            <CardTitle>Hello!</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>This is a bare-bones application that you can modify and build on.</p>
+            <p className="text-lg font-semibold">Welcome to our application. We're glad you're here!</p>
+            <p className="mt-2">This is a bare-bones application that you can modify and build on.</p>
           </CardContent>
         </Card>
 
