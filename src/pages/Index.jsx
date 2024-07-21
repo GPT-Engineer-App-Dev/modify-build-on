@@ -9,18 +9,16 @@ const HomePage = () => {
         <h1 className="text-2xl font-bold">My Application</h1>
       </header>
 
-      <main className="flex-grow p-4 bg-red-600">
-        <Card className="mb-4">
+      <main className="flex-grow p-4 bg-red-600 flex items-center justify-center">
+        <Card className="w-full max-w-md text-center">
           <CardHeader>
-            <CardTitle>Hello!</CardTitle>
+            <CardTitle className="text-4xl font-bold">Hello!</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-lg font-semibold">Welcome to our application. We're glad you're here!</p>
-            <p className="mt-2">This is a bare-bones application that you can modify and build on.</p>
+            <p className="text-xl mt-4">Welcome to our application.</p>
+            <Button className="mt-6">Get Started</Button>
           </CardContent>
         </Card>
-
-        <Button>Click me</Button>
       </main>
 
       <footer className="bg-gray-200 p-4 text-center">
