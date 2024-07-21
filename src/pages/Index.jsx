@@ -9,7 +9,7 @@ const HomePage = () => {
         <h1 className="text-2xl font-bold">My Application</h1>
       </header>
 
-      <main className="flex-grow p-4 bg-red-500">
+      <main className="flex-grow p-4 bg-blue-500">
         <Card className="mb-4">
           <CardHeader>
             <CardTitle>Welcome</CardTitle>
